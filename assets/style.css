@@ -1,44 +1,37 @@
-body{
+body{ /* cambia il font e allinea i vari div al centro della pagina */
     text-align: center;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-}
-
-h1{
-    color: rgb(229, 49, 112);
-}
-main{
     margin: 0 12%;
+    color: rgb(229, 49, 112);/* cambia il colore del titolo */
 }
 
-img{
+.img-card{ /* sistema le varie parti delle card, di seguito i commenti specifici  */
+    background-color: rgb(15, 14, 23); /* cambia il colore dello sfondo */
+    color: white; /* cambia il colore del font */
+    text-align: left; /* allinea le scritte verso sinistra */
+    float: left; /*  */
+    margin: 2em 1em 0em 1em; /* da un certo margine alle carte per essere tutte alla stessa distanza */
+    width: calc(100%/3.3); /* calcola la larghetta delle carte in modo da essere 3 per ogni riga */
+    height: 7em; /* altezza di ogni card e di conseguenza delle foto */
+    box-shadow: 0px 0px 15px black; /* aggiunge un'ombra alle card */
+}
+
+.img-card p{ /* elimina il margine dai paragrafi dentro i div delle card */
+    margin: 0;
+}
+
+.img-card img{ /* sposta le immagini delle card alla sinistra del div, la ridimensiona alla grandezza del div e crea un padding destro per spostare le scritte */
     float: left;
     height: inherit;
     padding-right: 1em;
 }
-p{
-    margin: 0;
-}
 
-.img-card{
-    background-color: rgb(15, 14, 23);
-    color: white;
-    text-align: left;
-    float: left;
-    margin: 0 1em 2em 1em;
-    width: calc(100%/3.3);
-    height: 7em;
-    box-shadow: 0px 0px 15px black;
-}
-
-.email{
+.email{ /* colora di azzurrino il paragrafo delle email e le sposta un pò verso il basso rispetto all'altro paragrafo */
     color: cornflowerblue;
     margin-top: 0.2em;
 }
 
-#lorem{
+#lorem { /* specifica la grandezza del font e il colore di quello span */
     font-size: 115%;
-}
-
-#card{
-    margin-top: 3em;
+    color: black;
 }
