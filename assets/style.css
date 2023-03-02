@@ -1,0 +1,44 @@
+body{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    color: rgb(229, 49, 112);
+}
+main{
+    margin: 0 12%;
+}
+
+img{
+    float: left;
+    height: inherit;
+    padding-right: 1em;
+}
+p{
+    margin: 0;
+}
+
+.img-card{
+    background-color: rgb(15, 14, 23);
+    color: white;
+    text-align: left;
+    float: left;
+    margin: 0 1em 2em 1em;
+    width: calc(100%/3.3);
+    height: 7em;
+    box-shadow: 0px 0px 15px black;
+}
+
+.email{
+    color: cornflowerblue;
+    margin-top: 0.2em;
+}
+
+#lorem{
+    font-size: 115%;
+}
+
+#card{
+    margin-top: 3em;
+}
